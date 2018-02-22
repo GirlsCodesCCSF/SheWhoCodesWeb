@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+}
+
+/* body{
+  background: rgba(39, 29, 182, 0.7);
+  background:#efefef;
+  color: #000;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+} */
+
+.container-form{
+  background: rgba(39, 29, 182, 0.7);
+  background:#efefef;
+  color: #000;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+ul{
+  list-style: none;
+padding: 0;
+}
+
+.brand{
+  text-align: center;
+
+}
+
+span{
+  color: #1fbdc9;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,.7);
+}
+
+.wrapper > *{
+  padding: .75rem;
+}
+
+.club-info{
+  /* background: rgba(222, 205, 243, 0.329); */
+  background: #1fbdc9;
+  color: #fff;
+}
+
+.club-info h3, .club-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.alert{
+  text-align: center;
+  padding: 1.5rem;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  /* seen via js */
+  display: none; 
+}
+.contact-info{
+  background: #fff;
+}
+/*FORM STYLES*/
+.contact-info form{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.contact-info form label{
+  display: block;
+}
+
+.contact-info form p{
+  margin: 0;
+}
+
+button.full{
+  width: 100%; 
+  background:#1fbdc9;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.contact-info form input,
+.contact-info form textarea{
+  width: 100%;
+ padding: .75rem;
+ border: 1px solid#c9e6ff;
+}
+
+button.full:hover, button.full:focus{
+  background:#e7b9c5; 
+  outline: 0;
+  transition: background-color 2s ease-out;
+
+}
+
+/*LARGE SCREEN*/
+@media(min-width:780px){
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.wrapper >*{
+  padding: 2rem;
+}
+.club-info h3, 
+.club-info .brand, 
+.club-info ul{
+  text-align: left;
+}
+}

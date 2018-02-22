@@ -1,0 +1,256 @@
+
+body{
+ font-size: 100%;
+ padding: 0;
+ margin: 0;
+ background: #f4f4f4f4;
+ line-height: 1.5;
+}
+
+/* GLOBAL */
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden; /* if something go outside  a div it will be hidden*/
+}
+h1,h2{
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* SHOWCASE */
+
+#showcase{
+  background: url("../images/showcase.jpg")no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+#showcase h1{
+margin-top: 9rem;
+text-align: center;
+color: #fff;
+font-size: 2rem;
+}
+
+#modal-btn{
+  background: #1fbdc9;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  width: 100%;
+  height: 35px;
+  border:none;
+  border-radius: 3%;
+  font-size: 1rem;
+  line-height: 2;
+  color: #fff;
+}
+
+#modal-btn:hover{
+  background: #ddd;
+  cursor: pointer;
+ }
+/* ABOUT US */
+
+ section #main-col {
+  background: #fff;
+  text-align: justify;
+  line-height: 1.75;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   padding-left: .75rem;
+   padding-right: .75rem;
+}
+/* WHAT WE DO */
+  #boxes{
+  background: #333333;
+}
+
+ .box{
+  background-color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
+ line-height: 1.5;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+/* MEMBER */
+
+.boxMember>img{
+  width: 40%;
+  margin: 0 6rem;
+  border-radius: 50%;
+}
+
+.boxMember>img:hover{
+  opacity: .7;
+}
+.boxMember p{
+  text-align: center;
+}
+
+/* CONTACT */
+
+section#location{
+  background-color: #eee;
+}
+
+.club-info,
+.contact-info{
+  padding: 1rem 3rem;
+ }
+.club-info ul{
+ padding: 0;
+}
+.club-info ul li{
+  list-style: none;
+  line-height: 2; 
+ 
+}
+.fa-map-marker,
+.fa-road,
+.fa-envelope{
+color:#1fbdc9;
+padding-right: .5rem;
+}
+
+/* FORM */
+
+.contact-form p{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+ }
+
+ button.full{
+  color: #fff;
+  width: 100%;
+  height: 3.5rem;
+  background-color: #000000;
+ }
+
+ button.full:hover{
+  background-color: #1fbdc9;
+  cursor: pointer;
+ }
+
+.contact-info{
+  color: #000 ;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+ }
+
+ .contact-info input{
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+ }
+
+ .contact-info textarea{
+  width: 100%;
+ }
+
+.box>iframe{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0; 
+}
+/* FOOTER */
+
+footer{
+  background-color: #333333;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+#upperfooter  nav li{
+ list-style: none;
+ display: inline-block;
+ font-size: 3rem;
+ padding-left: .5rem;
+ padding-right: .5rem;
+ color:#1fbdc9;;
+}
+
+#upperfooter  nav li:hover{
+  
+  color:#fff;
+  cursor: pointer;
+ }
+
+/* MEDIA QUERIES */
+
+@media(min-width:700px){
+
+  #showcase{
+    min-height: 400px;
+  }
+  #showcase h1{
+    margin-top: 20rem;
+    }
+    
+    #modal-btn{
+      margin: 1rem 20rem;
+      width: 30%;
+      height: 35px;
+    }
+  
+ #boxes .box{
+    float: left;
+   width: 40%;
+   margin-left: .75rem;
+   margin-right: .75rem;
+   text-align: justify;
+  }
+
+  #member> .container{
+   width: 90%;
+
+  }
+  #memberAvatars{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+  .boxMember{
+    width: 25%;
+    margin-left: 1rem;
+  }
+
+  #location{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 1rem;
+  }
+  
+  .club-info,
+  .contact-info{
+    flex: 2 auto;
+  }
+
+  .club-info,{
+    flex-basis: 50%;
+   order: 1;
+  }
+  .contact-info{
+    flex-basis: 50%;
+    order: 2;
+  }
+  #location .box{
+    flex-basis: 100%;
+    order:3;
+  }
+}
