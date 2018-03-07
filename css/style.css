@@ -116,7 +116,8 @@ section#location{
 }
 .fa-map-marker,
 .fa-road,
-.fa-envelope{
+.fa-envelope,
+.fa-info{
 color:#1fbdc9;
 padding-right: .5rem;
 }
