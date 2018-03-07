@@ -1,6 +1,6 @@
  var modal = document.getElementById('singleModal');
  var modalBtn = document.getElementById('modal-btn');
- var closeBtn= document.getElementsByClassName('close-btn')[0];
+ var closeBtn= document.getElementsByClassName('close-btn');
 
  // listen
 
