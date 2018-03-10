@@ -17,6 +17,7 @@ header #branding{
 header #branding h1{
   margin: 0;
   color: #fff;
+  text-align: justify;
 }
 span.highlight{
   color: #10dae9;
@@ -35,20 +36,22 @@ span.highlight{
   #main-nav ul{
     margin: 0;
     padding: 0;
+    float: right;
+    margin-right: 1.75rem;
     }
   #main-nav ul li{
     list-style: none; 
     text-align:center; 
-    float: right;
+    display: inline-block;
     padding-right: .75rem;
-    margin-right: .75rem;
+    margin-left: .75rem;
   }
   
   #main-nav ul li a{
   text-decoration: none;
   text-transform: uppercase;
    color: #fff;
-   line-height: 2;
+   line-height: 3;
    text-align: center; 
   }
 }
