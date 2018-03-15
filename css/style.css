@@ -54,7 +54,7 @@ font-size: 2rem;
 }
 
 #modal-btn:hover{
-  background: #ddd;
+  background: rgb(206, 93, 111);
   cursor: pointer;
  }
 /* ABOUT US */
