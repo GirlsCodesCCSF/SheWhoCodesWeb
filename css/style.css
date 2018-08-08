@@ -89,7 +89,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background-image: url("../img/showcase.jpeg");
+  background-image: url("../images/showcase.jpeg");
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -168,7 +168,7 @@ img {
 }
 
 .slack {
-  background: rgba(104, 104, 104, 0.8) url("../img/slack.png") no-repeat;
+  background: rgba(104, 104, 104, 0.8) url("../images/slack.png") no-repeat;
   background-size: contain;
   text-transform: uppercase;
   color: var(--dark);
