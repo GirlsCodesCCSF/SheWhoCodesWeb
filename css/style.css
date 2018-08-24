@@ -127,6 +127,7 @@ img {
 /* Boxes */
 
 .boxes {
+  background: #F0FFF0;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -134,7 +135,7 @@ img {
 }
 
 .box {
-  background: var(--primary);
+  background: #F0FFF0;
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
