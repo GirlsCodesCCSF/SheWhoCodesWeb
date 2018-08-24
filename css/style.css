@@ -144,6 +144,10 @@ img {
   box-shadow: var(--shadow);
 }
 
+.box p {
+  font-size: 1rem;
+}
+
 .infobox {
   background: #F5FFFA;
   border-radius: 25px;
