@@ -141,8 +141,8 @@ img {
   box-shadow: var(--shadow);
 }
 
-.box {
-  background: #F0FFF0;
+.infobox {
+  background: #F5FFFA;
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
