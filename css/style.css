@@ -39,7 +39,6 @@ body {
 .btn {
   background: var(--dark);
   background: #00FFFF;
-  color: #00CED1;
   padding: 1.5rem;
   border-radius: 1rem;
   text-decoration: none;
