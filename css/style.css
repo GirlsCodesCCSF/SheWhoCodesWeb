@@ -38,11 +38,11 @@ a {
 .btn {
   background: var(--dark);
   background: #17a2b8;
-  color: var(--dark);
+  color: #00CED1;
   padding: 1.5rem;
   border-radius: 1rem;
   text-decoration: none;
-  border: 0;
+  border: 1;
 }
 
 /* For img to stay within their containers */
@@ -67,7 +67,7 @@ img {
 }
 
 .main-nav a {
-  background: var(--primary);
+  background: #F0F8FF;
   display: block;
   text-decoration: none;
   padding: 0.8rem;
