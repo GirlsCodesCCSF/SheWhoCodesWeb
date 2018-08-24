@@ -37,7 +37,7 @@ a {
 /* btn is a class we use through all the site */
 .btn {
   background: var(--dark);
-  background: #17a2b8;
+  background: #00FFFF;
   color: #00CED1;
   padding: 1.5rem;
   border-radius: 1rem;
