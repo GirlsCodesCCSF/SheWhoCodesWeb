@@ -1,0 +1,218 @@
+
+body, html {
+	font-family: Courier;
+	line-height: 1.4;
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+    text-size-adjust: inherit;
+}
+
+h1, h4 {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: 550;
+}
+
+/* ------------------------ Home Page -------------------------- */
+
+
+/* Webpage background */
+
+.bg {
+	/* The image used */
+	background-image: url("images/showcase.jpeg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+/* Text/Title*/
+
+.center {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 4rem;
+	display: flex;
+	min-height: 500px;
+	left: 50%;
+	top: 50%;
+	font-weight: bold;
+}
+
+.center h1 {
+	font-size: 5.5rem;
+	font-weight: 550;
+	text-transform: uppercase;
+	letter-spacing: 0.7rem;
+	margin: 0;
+	color: #F0A12B;
+}
+
+.center p {
+	font-size: 1.3rem;
+	margin-top: 0;
+	border-bottom: 3px solid;
+}
+
+/* Button */
+.center a{
+	text-transform: uppercase;
+	background: rgba(240, 161, 40, 0.9);
+	padding: 1.5rem;
+	border-radius: 1rem;
+	text-decoration: none;
+	color: ivory;
+}
+
+.center a:hover{
+	background: rgba(240, 161, 40, 0.5)
+}
+
+
+/* -----------------------------Other Page---------------------------*/
+
+/*  Containers(center) */
+.wordContainer {
+	min-height: 100%;
+    width: 100%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+	flex-direction: column;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	display: flex;
+	text-align: center;
+}
+
+.wordContainer p{
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.container {
+	margin-top: 40px;
+}
+
+.icon:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=80);
+}
+
+.line {
+    background: tan; 
+    width: 75%; 
+    height: 3px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 30px;
+    background-position: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.image {
+  	max-width: 80%;
+  	min-width: 30px;
+  	width: 300px;
+  	height: 220px;
+	border-radius: 5px;
+}
+
+.row {
+	padding-top: 20px;
+}
+
+
+/* ----------------------------Navigation---------------------------------  */
+
+/* Icon */
+.navContainer {
+	display: inline-block;
+	cursor: pointer;
+    margin: 20px 0px 0px 20px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.3s;
+    border-radius:300px;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+	    
+/* --------Dropdown Menu-------- */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b8b2a64f;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 20px 0px 0px 20px;
+    border-radius: 20px;
+}
+
+.dropdown-content a {
+	font-weight: bold;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: rgba(0,0,0,0.48);
+	color: tan;
+}
+
+.show {
+	display: block;
+}
+
+
+/* ----------------------------- Footer ----------------------------- */
+
+footer {
+	text-align: center;
+	background: black;
+    opacity: 0.88;
+    color: darkgoldenrod;
+	padding-top: 20px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	position: relative;
+}
