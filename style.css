@@ -66,7 +66,7 @@ h1, h3, h4 {
 /* Button */
 .center a{
 	text-transform: uppercase;
-	background: rgb(153, 0, 51)
+	background: rgb(153, 0, 51);
 	padding: 1.5rem;
 	border-radius: 1rem;
 	text-decoration: none;
