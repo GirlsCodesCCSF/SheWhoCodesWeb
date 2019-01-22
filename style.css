@@ -66,10 +66,10 @@ h1, h3, h4 {
 
 /* Button */
 .center a{
-	font-size: 10px;
+	font-size: 20px;
 	text-transform: uppercase;
 	background: rgb(153, 0, 51);
-	padding: 1.5rem;
+	padding: 5px;
 	border-radius: 1rem;
 	text-decoration: none;
 	color: ivory;
